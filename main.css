@@ -1,0 +1,95 @@
+.div{
+    padding = 2%;
+}
+.header{
+    height: 100px;
+    background: lightblue;
+    text-align: center;
+    line-height: 100px;/*置中*/
+    width: 100%;
+}
+.nav1{
+    height: 100px;
+    background: #dfe6ad;
+    text-align: center;
+    line-height: 100px;/*置中*/
+    width: 100%;
+}
+.sidebar{
+    height: 200px;
+    background: #dfe6ad;
+    text-align: center;
+    line-height: 200px;/*置中*/
+    width: 25%;
+    float: left;
+}
+.main{
+    height: 200px;
+    background: #e6bcad;
+    text-align: center;
+    line-height: 200px;/*置中*/
+    width: 75%;
+    float: left;
+}
+.footer{
+    height: 100px;
+    background: #dbade6;
+    text-align: center;
+    line-height: 100px;/*置中*/
+    width: 100%;
+    float: left;
+    margin-bottom: 100px;
+}
+
+.nav > li{
+    display: inline-block;
+    border: 1px solid #000;
+    border-right: 0;
+    margin-left: -4px;
+    padding: .5em 1em;
+    position: relative;
+    box-sizing: border-box;
+    width: 12%;
+}
+.nav >li:last-child{
+    border-right: 1px solid #000;
+}
+.submenu{
+    width: 190px;
+    background: #eee;
+    padding: 0px;
+    border-radius: 15px;
+    border: 1px solid #ddd;
+    position: absolute;
+    left:-1px;
+    top:100%;
+    display:none;
+}
+.submenu li{
+    list-style-type: none;
+    padding: .5em 15px;
+    cursor: pointer;
+}
+submenu li:hover{
+  color: gray;
+  background: white;
+}
+.nav>li:hover .submenu{
+  display: block;
+}
+.relative {
+  position: relative;
+  height: 2000px;
+  background: lightblue;
+}
+.circle{
+    position: absolute;
+    position: fixed;
+    top: 700px;
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    background:#ff000a;
+}
+
+
